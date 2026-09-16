@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/バットオンリーユー　ずう！　背景.png"  ]
+[preload  storage="./data/fgimage/chara/1/主超_真顔.png"  ]
+[preload  storage="./data/fgimage/chara/1/主超_焦り2.png"  ]
+[preload  storage="./data/fgimage/chara/1/主超　通常.png"  ]
+[preload  storage="./data/fgimage/chara/1/主超_驚き.png"  ]
+[return]

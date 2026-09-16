@@ -1,0 +1,412 @@
+<div>
+
+	<style>
+
+		/* =========================
+		   メニュー全体
+		========================= */
+		.display_menu {
+			position: absolute !important;
+
+			left: 0 !important;
+			top: 0 !important;
+
+			width: 100% !important;
+			height: 100% !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			z-index: 5 !important;
+		}
+
+
+		/* =========================
+		   5つのボタン共通
+		========================= */
+		.menu_save_outer,
+		.menu_load_outer,
+		.menu_window_close_outer,
+		.menu_skip_outer,
+		.menu_back_title_outer {
+
+			position: absolute !important;
+
+			left: 50% !important;
+			right: auto !important;
+
+			transform: translateX(-50%) !important;
+
+			width: 380px !important;
+			height: auto !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			float: none !important;
+
+			z-index: 10 !important;
+		}
+
+
+		/* =========================
+		   各ボタンの縦位置
+		========================= */
+
+		/* SAVE */
+		.menu_save_outer {
+			top: 140px !important;
+		}
+
+		/* LOAD */
+		.menu_load_outer {
+			top: 230px !important;
+		}
+
+		/* HIDE MESSAGE */
+		.menu_window_close_outer {
+			top: 310px !important;
+		}
+
+		/* MESSAGE SKIP */
+		.menu_skip_outer {
+			top: 400px !important;
+		}
+
+		/* BACK TO TITLE */
+		.menu_back_title_outer {
+			top: 490px !important;
+		}
+
+
+		/* =========================
+		   ボタン画像
+		   見た目と親の当たり判定を同じ位置にする
+		========================= */
+		.menu_save,
+		.menu_load,
+		.menu_window_close,
+		.menu_skip,
+		.menu_back_title {
+
+			display: block !important;
+
+			width: 380px !important;
+			height: auto !important;
+
+			margin: 0 auto !important;
+			padding: 0 !important;
+
+			/* 元CSSの画像位置指定を完全解除 */
+			position: static !important;
+
+			left: auto !important;
+			right: auto !important;
+			top: auto !important;
+			bottom: auto !important;
+
+			transform: none !important;
+
+			cursor: pointer !important;
+		}
+
+
+		/* =========================
+		   右上 BACK
+		========================= */
+		.menu_item:has(.menu_close) {
+
+			position: absolute !important;
+
+			right: 25px !important;
+			top: 20px !important;
+
+			left: auto !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			float: none !important;
+
+			transform: none !important;
+
+			width: 120px !important;
+
+			z-index: 20 !important;
+		}
+
+
+		.menu_close {
+
+			display: block !important;
+
+			width: 120px !important;
+			height: 120px !important;
+
+			object-fit: contain !important;
+
+			margin: 0 !important;
+
+			cursor: pointer !important;
+		}
+
+
+		/* =========================
+		   MENUロゴ
+		========================= */
+		.img_label_menu {
+
+			position: absolute !important;
+
+			left: 20px !important;
+			top: 20px !important;
+
+			width: 220px !important;
+			height: auto !important;
+
+			z-index: 10 !important;
+		}
+
+
+		/* =========================
+		   背景
+		========================= */
+		.img_bg_base {
+
+			position: absolute !important;
+
+			left: 0 !important;
+			top: 0 !important;
+
+			width: 100% !important;
+			height: 100% !important;
+
+			z-index: -1 !important;
+		}
+
+
+		/* =========================
+		   当たり判定と見た目の位置を同期
+		========================= */
+
+		.menu_save {
+			position: absolute !important;
+			left: 0 !important;
+			top: 0 !important;
+		}
+
+		.menu_load {
+			position: absolute !important;
+			left: 0 !important;
+			top: 0 !important;
+		}
+
+		.menu_window_close {
+			position: absolute !important;
+			left: 0 !important;
+			top: 0 !important;
+		}
+
+		.menu_skip {
+			position: absolute !important;
+			left: 0 !important;
+			top: 0 !important;
+		}
+
+		.menu_back_title {
+			position: absolute !important;
+			left: 0 !important;
+			top: 0 !important;
+		}
+
+	</style>
+
+
+	<div class="display_menu block_menu">
+
+
+		<!-- =====================
+		     BACK
+		===================== -->
+
+		<div class="menu_item">
+
+			<img
+				class="menu_close"
+				src="data/image/newsystem/menu_button_close_menu.png"
+			/>
+
+		</div>
+
+
+		<!-- =====================
+		     SAVE
+		===================== -->
+
+		<div class="menu_item menu_save_outer">
+
+			<img
+				class="menu_save"
+				src="data/image/newsystem/menu_button_save.png"
+			/>
+
+		</div>
+
+
+		<!-- =====================
+		     LOAD
+		===================== -->
+
+		<div class="menu_item menu_load_outer">
+
+			<img
+				class="menu_load"
+				src="data/image/newsystem/menu_button_load.png"
+			/>
+
+		</div>
+
+
+		<!-- =====================
+		     HIDE MESSAGE
+		===================== -->
+
+		<div class="menu_item menu_window_close_outer">
+
+			<img
+				class="menu_window_close"
+				src="data/image/newsystem/menu_message_close.png"
+			/>
+
+		</div>
+
+
+		<!-- =====================
+		     MESSAGE SKIP
+		===================== -->
+
+		<div class="menu_item menu_skip_outer">
+
+			<img
+				class="menu_skip"
+				src="data/image/newsystem/menu_button_skip.png"
+			/>
+
+		</div>
+
+
+		<!-- =====================
+		     BACK TO TITLE
+		===================== -->
+
+		<div class="menu_item menu_back_title_outer">
+
+			<img
+				class="menu_back_title"
+				src="data/image/newsystem/menu_button_title.png"
+			/>
+
+		</div>
+
+
+	</div>
+
+
+	<!-- =====================
+	     MENUロゴ
+	===================== -->
+
+	<img
+		class="img_label img_label_menu block_menu"
+		src="data/image/newsystem/label_menu.png"
+	/>
+
+
+	<!-- =====================
+	     背景
+	===================== -->
+
+	<img
+		class="img_bg_base"
+		src="data/image/newsystem/bg_base.png"
+	/>
+
+
+	<!-- =====================
+	     ホバー処理
+	===================== -->
+
+	<script class="block_menu">
+
+		$(".menu_item").hover(
+
+			function(){
+
+				var img = $(this).find("img");
+
+				var src = img.attr("src");
+
+				if (!src) {
+					return;
+				}
+
+				/* 元画像を保存 */
+				$(this).data("original-src", src);
+
+				/* すでに2.pngなら変更しない */
+				if (!src.endsWith("2.png")) {
+
+					var hoverSrc =
+						src.replace(".png", "2.png");
+
+					img.attr("src", hoverSrc);
+
+				}
+
+			},
+
+			function(){
+
+				var img = $(this).find("img");
+
+				var originalSrc =
+					$(this).data("original-src");
+
+				if (originalSrc) {
+
+					img.attr(
+						"src",
+						originalSrc
+					);
+
+				}
+
+			}
+
+		);
+
+
+		/* =========================
+		   SAVE / LOAD 遷移時
+		   元メニューを即座に隠す
+		========================= */
+
+		$(".menu_save, .menu_load").on("click", function(){
+
+			$(".display_menu").css(
+				"visibility",
+				"hidden"
+			);
+
+			$(".img_label_menu").css(
+				"visibility",
+				"hidden"
+			);
+
+		});
+
+
+	</script>
+
+
+</div>

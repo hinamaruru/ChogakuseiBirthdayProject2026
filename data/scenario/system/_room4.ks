@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/ルームNo.4　ファントム　背景.png"  ]
+[preload  storage="./data/fgimage/chara/1/主超_目閉じ.png"  ]
+[preload  storage="./data/fgimage/chara/1/主超_真顔.png"  ]
+[preload  storage="./data/fgimage/chara/1/主超　通常.png"  ]
+[preload  storage="./data/fgimage/chara/1/主超_驚き.png"  ]
+[return]

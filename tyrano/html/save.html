@@ -1,0 +1,390 @@
+<div>
+
+	<style>
+
+		/* =========================
+		DATA SAVE ロゴ
+		========================= */
+		.img_label_save {
+			position: absolute !important;
+			left: 20px !important;
+			top: 20px !important;
+
+			width: 220px !important;
+			height: auto !important;
+
+			z-index: 10 !important;
+		}
+
+
+		/* =========================
+		セーブ一覧
+		========================= */
+		.area_save_list {
+			position: absolute !important;
+
+			left: 80px !important;
+			top: 135px !important;
+
+			width: 800px !important;
+			height: 470px !important;
+
+			overflow-y: auto !important;
+			overflow-x: hidden !important;
+
+			z-index: 5 !important;
+		}
+
+
+		/* =========================
+		セーブ1件
+		========================= */
+		.save_list_item {
+			box-sizing: border-box !important;
+
+			width: 100% !important;
+			min-height: 120px !important;
+
+			margin-bottom: 8px !important;
+		}
+
+
+		/* =========================
+		サムネイル共通
+		========================= */
+		.save_list_item_thumb {
+			display: inline-block !important;
+
+			width: 190px !important;
+			height: 105px !important;
+
+			overflow: hidden !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			box-sizing: border-box !important;
+
+			background: none !important;
+			background-image: none !important;
+
+			vertical-align: middle !important;
+		}
+
+
+		/* =========================
+		セーブ済みゲーム画面
+		========================= */
+		.save_list_item_thumb img {
+			display: block !important;
+
+			width: 190px !important;
+			height: 105px !important;
+
+			max-width: none !important;
+			max-height: none !important;
+
+			object-fit: cover !important;
+			object-position: center center !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			box-sizing: border-box !important;
+		}
+
+
+		/* =========================
+		NO IMAGE
+		ゲーム画面と完全に同じサイズ
+		========================= */
+		.save_list_item_thumb img.noimage {
+			display: block !important;
+
+			width: 190px !important;
+			height: 105px !important;
+
+			max-width: none !important;
+			max-height: none !important;
+
+			object-fit: fill !important;
+			object-position: center center !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			box-sizing: border-box !important;
+		}
+
+
+		/* =========================
+		BACK
+		========================= */
+		.menu_item {
+			position: absolute !important;
+
+			right: 25px !important;
+			top: 20px !important;
+
+			z-index: 20 !important;
+		}
+
+		.menu_close {
+			display: block !important;
+
+			width: 120px !important;
+			height: 120px !important;
+
+			object-fit: contain !important;
+
+			cursor: pointer !important;
+		}
+
+
+		/* =========================
+		スクロールバー
+		========================= */
+		.area_save_list::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		.area_save_list::-webkit-scrollbar-track {
+			background: rgba(0, 0, 0, 0.5);
+		}
+
+		.area_save_list::-webkit-scrollbar-thumb {
+			background: #9b4300;
+			border-radius: 5px;
+		}
+
+		/* =========================
+		セーブ日時の文字色
+		========================= */
+		.save_list_item_date {
+			color: #d96a00 !important;
+		}
+
+
+		/* =========================
+		セーブ文章の文字色
+		========================= */
+		.save_list_item_text {
+			display: block !important;
+			color: #d8c7b5 !important;
+			margin-top: 6px !important;
+		}
+
+		/* =========================
+		サムネイルを少し左へ
+		========================= */
+		.save_list_item_thumb {
+			position: relative !important;
+			left: 0px !important;
+			top: 7px !important;
+		}
+
+		/* =========================
+		画像と文章欄を縦横ぴったり揃える
+		========================= */
+
+		.save_list_item {
+			display: flex !important;
+			align-items: stretch !important;
+
+			width: 100% !important;
+			height: 120px !important;
+			min-height: 120px !important;
+
+			gap: 0 !important;
+			margin-bottom: 8px !important;
+
+			box-sizing: border-box !important;
+		}
+
+
+		/* 左側：サムネイル */
+		.save_list_item_thumb {
+			position: relative !important;
+
+			left: 0 !important;
+			top: 0 !important;
+
+			display: block !important;
+
+			flex: 0 0 190px !important;
+
+			width: 190px !important;
+			height: 120px !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			overflow: hidden !important;
+			box-sizing: border-box !important;
+		}
+
+
+		/* セーブ画像 */
+		.save_list_item_thumb img {
+			display: block !important;
+
+			width: 190px !important;
+			height: 120px !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			object-fit: cover !important;
+			object-position: center center !important;
+
+			box-sizing: border-box !important;
+		}
+
+
+		/* NO IMAGE */
+		.save_list_item_thumb img.noimage {
+			width: 190px !important;
+			height: 120px !important;
+
+			object-fit: fill !important;
+			object-position: center center !important;
+		}
+
+
+		/* 右側：日時・文章 */
+		.save_list_item_area {
+			display: block !important;
+
+			flex: 1 1 auto !important;
+			height: 120px !important;
+
+			margin: 0 !important;
+			padding: 15px 20px !important;
+
+			box-sizing: border-box !important;
+		}
+
+		/* =========================
+		カーソルを当てた時の文字色
+		========================= */
+
+		.save_list_item:hover .save_list_item_text {
+			color: #5a4638 !important;
+		}
+
+		.save_list_item:hover .save_list_item_date {
+			color: #c65300 !important;
+		}
+	</style>
+
+
+
+
+	<!-- =========================
+	BACKボタン
+	========================= -->
+
+	<div class="menu_item">
+
+		<img
+			class="menu_close"
+			src="./data/image/newsystem/menu_button_close_menu.png"
+		/>
+
+	</div>
+
+
+	<div style="clear:both;"></div>
+
+
+	<!-- =========================
+	セーブデータ一覧
+	========================= -->
+
+	<div class="area_save_list">
+
+		<ul class="save_list">
+
+			{{for array_save}}
+
+				<li
+					class="save_display_area save_list_item"
+					data-num="{{:num}}"
+				>
+
+
+					<!-- サムネイル -->
+					<span class="save_list_item_thumb">
+
+						{{if img_data != ""}}
+
+							<img src="{{:img_data}}">
+
+						{{else}}
+
+							<img
+								class="noimage"
+								src="data/image/noimage.png"
+							>
+
+						{{/if}}
+
+					</span>
+
+
+					<!-- 日時・文章 -->
+					<span class="save_list_item_area">
+
+						<span class="save_list_item_date">
+							{{:save_date}}
+						</span>
+
+						<span class="save_list_item_text">
+							{{:title}}
+						</span>
+
+					</span>
+
+
+				</li>
+
+			{{/for}}
+
+		</ul>
+
+	</div>
+
+
+	<!-- =========================
+	DATA SAVE ロゴ
+	========================= -->
+
+	<img
+		class="img_label img_label_save"
+		src="data/image/newsystem/label_save.png"
+		style="
+			left:0;
+			top:0;
+			position:absolute;
+		"
+	>
+
+
+	<!-- =========================
+	背景
+	========================= -->
+
+	<img
+		class="img_bg_base"
+		src="data/image/newsystem/bg_base.png"
+		style="
+			z-index:-1;
+			left:0;
+			top:0;
+			width:100%;
+			height:100%;
+			position:absolute;
+		"
+	>
+
+</div>

@@ -1,0 +1,296 @@
+<div>
+
+	<style>
+
+		/* =========================
+		BACKLOG一覧
+		========================= */
+		.area_log {
+			position: absolute !important;
+
+			left: 80px !important;
+			top: 135px !important;
+
+			width: 800px !important;
+			height: 470px !important;
+
+			/* スクロールはここだけに担当させる */
+			overflow-y: auto !important;
+			overflow-x: hidden !important;
+
+			box-sizing: border-box !important;
+
+			padding: 20px 25px !important;
+
+			background: rgba(55, 55, 55, 0.72) !important;
+
+			border-top: 1px solid #8fa8b5 !important;
+			border-bottom: 1px solid #8fa8b5 !important;
+
+			z-index: 5 !important;
+		}
+
+
+		/* =========================
+		ログ全体
+		========================= */
+		.log_body {
+			width: 100% !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			list-style: none !important;
+
+			background: transparent !important;
+
+			/* =========================
+			   二重スクロール対策
+			   スクロールは.area_logだけ
+			========================= */
+			height: auto !important;
+			max-height: none !important;
+
+			overflow: visible !important;
+			overflow-x: visible !important;
+			overflow-y: visible !important;
+		}
+
+
+		/* log_body自身のスクロールバーを消す */
+		.log_body::-webkit-scrollbar {
+			display: none !important;
+			width: 0 !important;
+			height: 0 !important;
+		}
+
+
+		/* =========================
+		ログ1件
+		========================= */
+		.log_body_item {
+			display: block !important;
+
+			width: 100% !important;
+
+			margin: 0 0 12px 0 !important;
+			padding: 0 !important;
+
+			background: transparent !important;
+			border: none !important;
+
+			box-sizing: border-box !important;
+		}
+
+
+		/* =========================
+		ログ内部
+		========================= */
+		.log_body_item_text {
+			display: block !important;
+
+			width: 100% !important;
+
+			margin: 0 !important;
+			padding: 0 !important;
+
+			background: transparent !important;
+
+			font-size: 20px !important;
+			line-height: 1.8 !important;
+		}
+
+
+		/* =========================
+		話者名
+		========================= */
+		.backlog_chara_name {
+			color: #d96a00 !important;
+
+			font-size: 20px !important;
+			font-weight: bold !important;
+
+			line-height: 1.8 !important;
+		}
+
+
+		/* =========================
+		本文
+		========================= */
+		.backlog_text,
+		.backlog_text_noname {
+			color: #ead9c4 !important;
+
+			font-size: 20px !important;
+			font-weight: normal !important;
+
+			line-height: 1.8 !important;
+		}
+
+
+		/* =========================
+		BACKLOGロゴ
+		========================= */
+		.img_label_backlog {
+			position: absolute !important;
+
+			left: 20px !important;
+			top: 20px !important;
+
+			width: 220px !important;
+			height: auto !important;
+
+			z-index: 10 !important;
+		}
+
+
+		/* =========================
+		BACK
+		========================= */
+		.menu_item {
+			position: absolute !important;
+
+			right: 25px !important;
+			top: 20px !important;
+
+			margin: 0 !important;
+
+			z-index: 20 !important;
+		}
+
+
+		.menu_close {
+			display: block !important;
+
+			width: 120px !important;
+			height: 120px !important;
+
+			object-fit: contain !important;
+
+			cursor: pointer !important;
+		}
+
+
+		/* =========================
+		オレンジのスクロールバー
+		========================= */
+		.area_log::-webkit-scrollbar {
+			width: 10px !important;
+		}
+
+		.area_log::-webkit-scrollbar-track {
+			background: rgba(0, 0, 0, 0.5) !important;
+		}
+
+		.area_log::-webkit-scrollbar-thumb {
+			background: #9b4300 !important;
+			border-radius: 5px !important;
+		}
+
+
+		/* =========================
+		BACKLOG 内側の謎の四角を消す
+		========================= */
+
+		.log_body {
+			border: none !important;
+			outline: none !important;
+			box-shadow: none !important;
+		}
+
+		.log_body_item {
+			border: none !important;
+			outline: none !important;
+			box-shadow: none !important;
+		}
+
+		.log_body_item_text {
+			border: none !important;
+			outline: none !important;
+			box-shadow: none !important;
+		}
+
+
+		/* ティラノ側で生成される要素も消す */
+		.area_log ul,
+		.area_log li,
+		.area_log div {
+			border: none !important;
+			outline: none !important;
+			box-shadow: none !important;
+		}
+
+	</style>
+
+
+	<!-- =========================
+	BACK
+	========================= -->
+	<div class="menu_item">
+
+		<img
+			class="menu_close"
+			src="data/image/newsystem/menu_button_close_menu.png"
+		/>
+
+	</div>
+
+
+	<div style="clear:both;"></div>
+
+
+	<!-- =========================
+	BACKLOG
+	========================= -->
+	<div class="area_log">
+
+		<ul class="log_body">
+
+			{{for array_log}}
+
+				<li class="log_body_item">
+
+					<div class="log_body_item_text">
+						{{:text}}
+					</div>
+
+				</li>
+
+			{{/for}}
+
+		</ul>
+
+	</div>
+
+
+	<!-- =========================
+	BACKLOGロゴ
+	========================= -->
+	<img
+		class="img_label img_label_backlog"
+		src="data/image/newsystem/label_backlog.png"
+		style="
+			left:0;
+			top:0;
+			position:absolute;
+		"
+	>
+
+
+	<!-- =========================
+	背景
+	========================= -->
+	<img
+		class="img_bg_base"
+		src="data/image/newsystem/bg_base.png"
+		style="
+			z-index:-1;
+			left:0;
+			top:0;
+			width:100%;
+			height:100%;
+			position:absolute;
+		"
+	>
+
+</div>
