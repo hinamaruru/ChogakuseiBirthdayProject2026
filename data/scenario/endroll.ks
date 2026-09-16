@@ -202,9 +202,9 @@ TYRANO.kag.variable.tf.system.backlog = [];
 *skip_check
 
 [tb_start_tyrano_code]
-[glink text="エンドロールをスキップする" target="*skip_endroll" x="280" y="250" width="400"]
+[glink text="エンドロールをスキップする" target="*skip_endroll" x="270" y="250" width="400"]
 
-[glink text="エンドロールを見る" target="*play_endroll" x="280" y="340" width="400"]
+[glink text="エンドロールを見る" target="*play_endroll" x="270" y="340" width="400"]
 
 [s]
 [_tb_end_tyrano_code]
