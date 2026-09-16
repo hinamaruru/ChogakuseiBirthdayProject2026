@@ -9,25 +9,9 @@
 [bg  time="0"  method="crossfade"  storage="black.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_tyrano_code]
-[iscript]
-
-if (TYRANO.kag.variable.sf.endroll_seen == 1) {
-
-var skip = window.confirm(
-"エンドロールをスキップしますか？"
-);
-
-if (skip) {
-
-TYRANO.kag.ftag.startTag("jump", {
-target: "*skip_endroll"
-});
-
-}
-
-}
-
-[endscript]
+[if exp="sf.endroll_seen == 1"]
+[jump target="*skip_check"]
+[endif]
 [_tb_end_tyrano_code]
 
 *play_endroll
@@ -215,3 +199,13 @@ TYRANO.kag.variable.tf.system.backlog = [];
 [_tb_end_tyrano_code]
 
 [jump  storage="title_screen.ks"  target="*title"  ]
+*skip_check
+
+[tb_start_tyrano_code]
+[glink text="エンドロールをスキップする" target="*skip_endroll" x="280" y="250" width="400"]
+
+[glink text="エンドロールを見る" target="*play_endroll" x="280" y="340" width="400"]
+
+[s]
+[_tb_end_tyrano_code]
+
