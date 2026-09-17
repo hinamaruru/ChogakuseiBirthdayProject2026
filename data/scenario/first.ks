@@ -1,9 +1,5 @@
-
-
 ;メニューボタン非表示
 [hidemenubutton]
-please tap...[l]
-
 
 ;ゲームに必要なライブラリ読み込み
 [call storage="system/tyrano.ks"]
@@ -11,9 +7,7 @@ please tap...[l]
 [call storage="system/chara_define.ks"]
 [call storage="system/chara_layer_define.ks"]
 
-
 ;live2D対応
-
 
 [layopt layer=2 visible=true]
 [layopt layer="message0" visible=false]
@@ -23,16 +17,9 @@ please tap...[l]
 [call storage="system/plugin.ks"]
 [call storage="system/plugin_third.ks"]
 
-;タイトルの設定
-;[title name="now loading"]
-
 ;タイトル画面表示
 [jump storage="title_screen.ks"]
 
 ;--------------------------
 
 [s]
-
-
-
-
