@@ -4,7 +4,7 @@
 [hidemenubutton]
 [_tb_end_tyrano_code]
 
-[bg time="0" method="crossfade" storage="注意事項.png"]
+[bg time="10000" method="crossfade" storage="注意事項.png"]
 
 [tb_start_tyrano_code]
 [iscript]
@@ -16,7 +16,7 @@ $("#startup_loading").remove();
 
 [bg  time="0"  method="crossfade"  storage="注意事項.png"  ]
 [tb_start_tyrano_code]
-[wait time="10000"]
+[wait time="0"]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
