@@ -2,6 +2,7 @@
 
 ;メニューボタン非表示
 [hidemenubutton]
+please tap...[l]
 
 
 ;ゲームに必要なライブラリ読み込み
