@@ -18,6 +18,7 @@ $("#startup_loading").remove();
 ; 前の画面から残っているボタン・メッセージ・画像を全部消す
 [cm]
 [er]
+[freeimage layer="0"]
 [freeimage layer="1"]
 [freeimage layer="2"]
 [position layer="message0" visible="false"]
