@@ -11,7 +11,7 @@ $("#startup_loading").remove();
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[bg  time="0"  method="crossfade"  storage="注意事項.png"  ]
+[bg  time="10000"  method="crossfade"  storage="注意事項.png"  ]
 [wait time="10000"]
 [_tb_end_tyrano_code]
 
