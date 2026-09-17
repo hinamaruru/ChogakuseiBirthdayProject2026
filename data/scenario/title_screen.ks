@@ -16,7 +16,6 @@ $("#startup_loading").remove();
 [playbgm volume="100" time="1000" loop="true" storage="薄明かりのなかで.mp3"]
 
 [tb_start_tyrano_code]
-; 前画面の残存要素消去
 [cm]
 [clearfix]
 [freeimage layer="0"]
@@ -57,6 +56,6 @@ $("#startup_loading").remove();
 [s]
 
 *zukan
-[cm]
+; cmを先に呼ばず、直接シナリオ遷移させる
 [jump storage="zukan.ks" target="*Collection"]
 [s]
