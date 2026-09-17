@@ -2,16 +2,25 @@
 
 *Collection
 
+; 画面と全レイヤの初期化
 [cm]
 [clearfix]
 [freeimage layer="base"]
 [freeimage layer="0"]
 [freeimage layer="1"]
 [freeimage layer="2"]
+[layopt layer="2" visible="false"]
 [layopt layer="message0" visible="false"]
 
-[bg time="500" method="crossfade" storage="bg_haikei.png"]
-[button storage="title_screen.ks" target="*title" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+; 背景表示
+[bg time="300" method="crossfade" storage="bg_haikei.png"]
+
+; タイトルへ戻るボタン（適正サイズ・比率維持）
+[button storage="title_screen.ks" target="*title" graphic="もどる_ボタン.png" width="210" height="140" x="20" y="20" fix="false"]
+
+; ===================================================
+; アイテム一覧アイコン描画（未解放なら？画像を表示）
+; ===================================================
 
 ; --- アイテム01 ---
 [if exp="sf.item01==1"]
@@ -93,103 +102,129 @@
     [tb_image_show time="0" storage="default/Question.png" width="234" height="234" x="710" y="200" _clickable_img="" name="img_67"]
 [endif]
 
+; 一覧画面待機
 [s]
 
+
 ; ===================================================
-; 詳細表示共通設定
+; 詳細表示画面（レイヤ2に描画）
 ; ===================================================
 
 *Detail01
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item01.png" left="255" top="105" width="450" height="338" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item01.png" left="140" top="150" width="300" height="225" time="0"]
+[ptext layer="2" page="fore" text="【モエチャッカファイア】</br></br>『大切な思い出に』</br></br>メイド喫茶『マスカレード』で手渡された衣装とチェキ。</br>不器用ながらも温かい、もう一人の僕からのお祝いの証。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
 *Detail02
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item02.png" left="305" top="145" width="350" height="350" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item02.png" left="165" top="140" width="250" height="250" time="0"]
+[ptext layer="2" page="fore" text="【しゅきしゅきメイドマスカレイド】</br></br>『優しい貴方に』</br></br>深紅の薔薇とメッセージカード。</br>熱烈な想いと、去り際に向けられた純粋な感謝が込められている。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
 *Detail03
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item03.png" left="255" top="170" width="450" height="253" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item03.png" left="140" top="180" width="300" height="169" time="0"]
+[ptext layer="2" page="fore" text="【歪なわけ／教えてあげる】</br></br>『歪んだ愛と、隠した本心を込めて』</br></br>青いハートがあしらわれたネックレス。</br>素直になれない強がりと、その奥底に隠された真情の結晶。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
 *Detail04
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item04.png" left="305" top="145" width="350" height="350" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item04.png" left="165" top="140" width="250" height="250" time="0"]
+[ptext layer="2" page="fore" text="【pa pa pa】</br></br>『また君と会うための目印に』</br></br>刺激を求める彼から手渡された首輪。</br>別れを惜しみつつも、再会を確信しているかのような証書。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
 *Detail05
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item05.png" left="305" top="145" width="350" height="350" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item05.png" left="165" top="140" width="250" height="250" time="0"]
+[ptext layer="2" page="fore" text="【親愛なるあなたは火葬】</br></br>『沢山の幸せを込めて』</br></br>優しく遺されていたフリージアの花。</br>寂しげな微笑みとともに贈られた、静かで温かな祈り。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
 *Detail06
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item06.png" left="330" top="130" width="300" height="400" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item06.png" left="185" top="140" width="210" height="280" time="0"]
+[ptext layer="2" page="fore" text="【Shadow Shadow】</br></br>『変わらない願いを込めて』</br></br>光の届かない場所で託された銀の指輪。</br>いつの日か自分を連れ出してほしいという、切なる願いの形。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
 *Detail07
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item07.png" left="305" top="145" width="350" height="350" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item07.png" left="165" top="140" width="250" height="250" time="0"]
+[ptext layer="2" page="fore" text="【ルームNo.4】</br></br>『必ず変わるための鍵に』</br></br>部屋の鍵に付けられていたキーホルダー。</br>存在したかもしれない自分と向き合い、未来へ進む決意の象徴。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
 *Detail08
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item08.png" left="305" top="145" width="350" height="350" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item08.png" left="165" top="140" width="250" height="250" time="0"]
+[ptext layer="2" page="fore" text="【ファントム】</br></br>『満たされない欲望の証に』</br></br>屋敷の主が気まぐれに投げつけてきたトランプ。</br>奪い、弄び、満たされることのない飢えを宿した記憶の破片。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
 *Detail09
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item09.png" left="305" top="145" width="350" height="350" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item09.png" left="165" top="140" width="250" height="250" time="0"]
+[ptext layer="2" page="fore" text="【バットオンリーユー】</br></br>『あなただけへの愛の叫びを込めて』</br></br>お気に入りのネックレスと悪戯っぽい手紙。</br>道化のような言葉の裏に滲む、狂おしい執着と純粋な愛情。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
 *Detail10
+[cm]
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
-[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="180" top="20" width="600" height="600" time="300"]
-[image layer="2" page="fore" storage="default/item10.png" left="305" top="145" width="350" height="350" time="0"]
+[image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
+[image layer="2" page="fore" storage="default/item10.png" left="165" top="140" width="250" height="250" time="0"]
+[ptext layer="2" page="fore" text="【ずうっといっしょ！】</br></br>『不変の愛に』</br></br>途切れた日記の傍らに残された血塗られた指輪。</br>お揃いの悪夢の中で、二度と離れることのない永遠の誓い。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="210" height="140" x="630" y="410"]
 [s]
 
+; ===================================================
+; 詳細画面を閉じる
+; ===================================================
 *CloseDetail
+[cm]
 [tb_start_tyrano_code]
 [freeimage layer="2" page="fore"]
 [layopt layer="2" visible="false"]
