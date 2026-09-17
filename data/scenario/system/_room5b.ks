@@ -10,7 +10,7 @@
 [preload  storage="./data/fgimage/chara/6/疑問.png"  ]
 [preload  storage="./data/bgimage/超学生_防音室_背景.jpg"  ]
 [preload  storage="./data/fgimage/default/アイテム背景_改.png"  ]
-[preload  storage="./data/fgimage/default/item10.PNG"  ]
+[preload  storage="./data/fgimage/default/item10.png"  ]
 [preload  storage="./data/fgimage/chara/1/主超_通常.png"  ]
 [preload  storage="./data/fgimage/chara/1/主超_笑顔.png"  ]
 [preload  storage="./data/bgimage/black.png"  ]

@@ -45,6 +45,6 @@
 [awakegame] 
 *item10 
 [cm][clearfix] 
-[image  name="cg_image"  layer="1"  zindex="10"  time="100"  storage="item10.PNG"  folder="bgimage"  visible="true"  width="960"  height="640"  ]
+[image  name="cg_image"  layer="1"  zindex="10"  time="100"  storage="item10.png"  folder="bgimage"  visible="true"  width="960"  height="640"  ]
 [l] 
 [awakegame] 

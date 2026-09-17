@@ -5,7 +5,7 @@
 [tb_start_tyrano_code]
 [preload storage="./data/bgimage/ずう_背景.png"]
 [preload storage="./data/fgimage/default/アイテム背景_改.png"]
-[preload storage="./data/fgimage/default/item10.PNG"]
+[preload storage="./data/fgimage/default/item10.png"]
 [_tb_end_tyrano_code]
 
 [cm  ]
@@ -232,7 +232,7 @@
 [_tb_end_text]
 
 [tb_image_show  time="0"  storage="default/アイテム背景_改.png"  width="2400"  height="2400"  x=""  y=""  _clickable_img=""  name="img_54"  ]
-[tb_image_show  time="0"  storage="default/item10.PNG"  width="485"  height="485"  x="229"  y="68"  _clickable_img=""  ]
+[tb_image_show  time="0"  storage="default/item10.png"  width="485"  height="485"  x="229"  y="68"  _clickable_img=""  ]
 [tb_start_text mode=1 ]
 #超学生
 これは...プレゼント？[p]

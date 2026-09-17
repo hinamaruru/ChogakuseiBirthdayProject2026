@@ -9,5 +9,5 @@
 [preload  storage="./data/fgimage/default/item07.png"  ]
 [preload  storage="./data/fgimage/default/item08.png"  ]
 [preload  storage="./data/fgimage/default/item09.png"  ]
-[preload  storage="./data/fgimage/default/item10.PNG"  ]
+[preload  storage="./data/fgimage/default/item10.png"  ]
 [return]

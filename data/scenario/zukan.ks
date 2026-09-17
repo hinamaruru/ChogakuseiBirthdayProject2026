@@ -85,7 +85,7 @@
 
 ; --- アイテム10 ---
 [if exp="sf.item10==1"]
-    [tb_image_show time="0" storage="default/item10.PNG" width="166" height="166" x="751" y="233" _clickable_img="" name="img_70"]
+    [tb_image_show time="0" storage="default/item10.png" width="166" height="166" x="751" y="233" _clickable_img="" name="img_70"]
     [clickable storage="zukan.ks" x="772" y="241" width="120" height="120" target="*Detail10" _clickable_img=""]
 [else]
     [tb_image_show time="0" storage="default/Question.png" width="234" height="234" x="710" y="200" _clickable_img="" name="img_67"]
@@ -182,7 +182,7 @@
 [tb_start_tyrano_code]
 [layopt layer="2" visible="true"]
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
-[image layer="2" page="fore" storage="default/item10.PNG" left="-150" top="-45" width="850" height="650" time="0"]
+[image layer="2" page="fore" storage="default/item10.png" left="-150" top="-45" width="850" height="650" time="0"]
 [_tb_end_tyrano_code]
 [button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
