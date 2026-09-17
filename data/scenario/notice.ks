@@ -1,13 +1,17 @@
 [_tb_system_call storage=system/_notice.ks]
 
 [tb_start_tyrano_code]
+[hidemenubutton]
+[_tb_end_tyrano_code]
+
+[bg time="0" method="crossfade" storage="注意事項.png"]
+
+[tb_start_tyrano_code]
 [iscript]
 
 $("#startup_loading").remove();
 
 [endscript]
-
-[hidemenubutton]
 [_tb_end_tyrano_code]
 
 [bg  time="0"  method="crossfade"  storage="注意事項.png"  ]
