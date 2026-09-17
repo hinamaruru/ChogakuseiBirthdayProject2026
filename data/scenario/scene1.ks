@@ -25,8 +25,8 @@ for (var i = 1; i <= 10; i++) {
 [tb_show_message_window]
 [cm]
 [bg storage="超学生_防音室_背景.jpg" time="1000"]
-[chara_show name="超学生" time="1000" wait="true" storage="chara/1/主超 通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
-[chara_mod name="超学生" time="0" cross="false" storage="chara/1/主超 ほんわか.png"]
+[chara_show name="超学生" time="1000" wait="true" storage="chara/1/主超　通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
+[chara_mod name="超学生" time="0" cross="false" storage="chara/1/主超　ほんわか.png"]
 [tb_start_text mode=1]
 #超学生
 いや～今日もたくさん編集したなぁ[p]
@@ -45,7 +45,7 @@ for (var i = 1; i <= 10; i++) {
 [playse volume="100" time="1000" buf="0" storage="Onoma-Flash13-2(High-Short).mp3"]
 [mask time="100" effect="fadeIn" color="0xffffff"]
 [mask_off time="100" effect="fadeOut"]
-[chara_mod name="超学生" time="0" cross="false" storage="chara/1/主超 巻き込まれ.png"]
+[chara_mod name="超学生" time="0" cross="false" storage="chara/1/主超　巻き込まれ.png"]
 [tb_start_text mode=1]
 #超学生
 って、うわぁ！！！？眩しっ！！？[p]
@@ -73,7 +73,7 @@ for (var i = 1; i <= 10; i++) {
 [_tb_end_text]
 
 [tb_show_message_window]
-[chara_mod name="超学生" time="0" cross="false" storage="chara/1/主超 巻き込まれ.png"]
+[chara_mod name="超学生" time="0" cross="false" storage="chara/1/主超　巻き込まれ.png"]
 [tb_start_text mode=1]
 #超学生
 いや意味わかんないよ！！！！！なんでそうなるの！！！！[p]
@@ -118,7 +118,7 @@ for (var i = 1; i <= 10; i++) {
 
 *select1
 [tb_show_message_window]
-[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超 通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
+[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超　通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
 [tb_start_text mode=1]
 #超学生
 ここはやっぱり1番にしましょう[p]
@@ -132,7 +132,7 @@ for (var i = 1; i <= 10; i++) {
 
 *select2
 [tb_show_message_window]
-[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超 通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
+[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超　通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
 [tb_start_text mode=1]
 #超学生
 まぁここは2番でいきますか。[p]
@@ -146,7 +146,7 @@ for (var i = 1; i <= 10; i++) {
 
 *select3
 [tb_show_message_window]
-[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超 通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
+[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超　通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
 [tb_start_text mode=1]
 #超学生
 とりあえず真ん中いっちゃいますか。[p]
@@ -160,7 +160,7 @@ for (var i = 1; i <= 10; i++) {
 
 *select4
 [tb_show_message_window]
-[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超 通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
+[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超　通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
 [tb_start_text mode=1]
 #超学生
 僕は数字は4が好きですからね。4番に行きましょう。[p]
@@ -174,7 +174,7 @@ for (var i = 1; i <= 10; i++) {
 
 *select5
 [tb_show_message_window]
-[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超 通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
+[chara_show name="超学生" time="0" wait="true" storage="chara/1/主超　通常.png" width="800" height="1000" left="77" top="0" reflect="false"]
 [tb_start_text mode=1]
 #超学生
 一番後ろにしましょうか、せっかくなのでね。[p]
