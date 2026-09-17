@@ -11,7 +11,7 @@
 [layopt layer="message0" visible="false"]
 
 [bg time="500" method="crossfade" storage="bg_haikei.png"]
-[button storage="title_screen.ks" target="*title" graphic="もどる_ボタン.png" width="450" height="300" x="40" y="360" _clickable_img="" name="img_2"]
+[button storage="title_screen.ks" target="*title_main" graphic="もどる_ボタン.png" width="450" height="300" x="40" y="360" _clickable_img="" name="img_2"]
 
 ; --- アイテム01 ---
 [if exp="sf.item01==1"]

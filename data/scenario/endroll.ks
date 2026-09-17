@@ -12,8 +12,8 @@
 ; 既読時はスキップ選択肢を表示
 [tb_start_tyrano_code]
 [if exp="sf.endroll_seen == 1"]
-    [glink text="エンドロールをスキップする" target="*skip_endroll" x="270" y="250" width="400"]
-    [glink text="エンドロールを見る" target="*play_endroll" x="270" y="340" width="400"]
+    [glink text="エンドロールをスキップする" target="*skip_endroll" x="240" y="250" width="400" align="center"]
+    [glink text="エンドロールを見る" target="*play_endroll" x="240" y="340" width="400" align="center"]
     [s]
 [endif]
 [_tb_end_tyrano_code]
@@ -81,4 +81,4 @@ TYRANO.kag.variable.tf.system.backlog = [];
 [endscript]
 [_tb_end_tyrano_code]
 
-[jump storage="title_screen.ks" target="*title"]
+[jump storage="title_screen.ks" target="*title_main"]

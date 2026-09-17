@@ -32,4 +32,4 @@ $("#startup_loading").remove();
 [eval exp="sf.notice_seen = 1"]
 [_tb_end_tyrano_code]
 
-[jump storage="title_screen.ks" target=""]
+[jump storage="title_screen.ks" target="*title_main"]
