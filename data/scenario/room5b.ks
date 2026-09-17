@@ -3,16 +3,16 @@
 *choice5b
 
 [tb_start_tyrano_code]
-[preload storage="./data/bgimage/ずう！背景.png"]
+[preload storage="./data/bgimage/ずう_背景.png"]
 [preload storage="./data/fgimage/default/アイテム背景_改.png"]
 [preload storage="./data/fgimage/default/item10.PNG"]
 [_tb_end_tyrano_code]
 
 [cm  ]
 [playbgm  volume="70"  time="1000"  loop="true"  storage="グループ５/毒入りのお菓子.mp3"  ]
-[bg  time="0"  method="crossfade"  storage="ずう！背景.png"  ]
+[bg  time="0"  method="crossfade"  storage="ずう_背景.png"  ]
 [tb_show_message_window  ]
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  top="0"  reflect="false"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  top="0"  reflect="false"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_焦り_(1).png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
@@ -27,7 +27,7 @@
 あぁ...[p]
 [_tb_end_text]
 
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  top="0"  reflect="false"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  top="0"  reflect="false"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_焦り2.png"  ]
 [tb_start_text mode=1 ]
 #超学生
@@ -159,7 +159,7 @@
 ...まぁ、はい。[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ずう！_スチル改.png"  width="1013"  height="675"  x="-52"  y="-32"  _clickable_img=""  name="img_32"  ]
+[tb_image_show  time="1000"  storage="default/ずう_スチル改.png"  width="1013"  height="675"  x="-52"  y="-32"  _clickable_img=""  name="img_32"  ]
 [tb_start_text mode=1 ]
 #ずうっといっしょ！
 まぁ、彼らしいですよね。日記まで書いちゃって...[p]
@@ -212,9 +212,9 @@
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
 [bg  time="0"  method="crossfade"  storage="超学生_防音室_背景.jpg"  ]
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  top="0"  reflect="false"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  top="0"  reflect="false"  ]
 [chara_move  name="超学生"  anim="false"  time="0"  effect="linear"  wait="true"  left="77"  width="800"  height="1000"  ]
 [chara_hide  name="ずうっといっしょ！"  time="0"  wait="true"  pos_mode="true"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_真顔.png"  ]
@@ -243,7 +243,7 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 この指輪も手紙も、大事にしますね。[p]

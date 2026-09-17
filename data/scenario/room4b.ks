@@ -3,17 +3,17 @@
 *choice4b
 
 [tb_start_tyrano_code]
-[preload storage="./data/bgimage/ファントム　部屋.png"]
+[preload storage="./data/bgimage/ファントム_部屋.png"]
 [preload storage="./data/fgimage/default/アイテム背景_改.png"]
 [preload storage="./data/fgimage/default/item08.png"]
 [_tb_end_tyrano_code]
 
 [cm  ]
 [playbgm  volume="70"  time="1000"  loop="true"  storage="グループ４/道化師のテーマ.mp3"  ]
-[bg  time="0"  method="crossfade"  storage="ファントム　部屋.png"  ]
+[bg  time="0"  method="crossfade"  storage="ファントム_部屋.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
-[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
+[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_驚き2.png"  ]
 [tb_start_text mode=1 ]
 #超学生
@@ -42,7 +42,7 @@
 ...ここがどこだか説明してもらえませんか？[p]
 [_tb_end_text]
 
-[chara_mod  name="ファントム"  time="0"  cross="false"  storage="chara/9/目閉じ　笑み.png"  ]
+[chara_mod  name="ファントム"  time="0"  cross="false"  storage="chara/9/目閉じ_笑み.png"  ]
 [tb_start_text mode=1 ]
 #ファントム
 簡単に言うなら、ただの屋敷。[p]
@@ -69,7 +69,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="ファントム"  time="0"  cross="false"  storage="chara/9/目閉じ　笑み.png"  ]
+[chara_mod  name="ファントム"  time="0"  cross="false"  storage="chara/9/目閉じ_笑み.png"  ]
 [tb_start_text mode=1 ]
 #ファントム
 仰せのままに。では、一つだけお願いを聞いてもらいますよ。[p]
@@ -106,7 +106,7 @@
 君なら、ちょうど良さそうだから。[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　怒り.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_怒り.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 ...それって、そばに居たから僕を選んだんですか。それとも……飽きたら次のつもりですか？[p]
@@ -119,13 +119,13 @@
 
 [_tb_end_text]
 
-[chara_mod  name="ファントム"  time="0"  cross="false"  storage="chara/9/目閉じ　笑み.png"  ]
+[chara_mod  name="ファントム"  time="0"  cross="false"  storage="chara/9/目閉じ_笑み.png"  ]
 [tb_start_text mode=1 ]
 #ファントム
 ……笑[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ファントム　スチル.png"  width="1184"  height="666"  x="-183"  y="0"  _clickable_img=""  name="img_37"  ]
+[tb_image_show  time="1000"  storage="default/ファントム_スチル.png"  width="1184"  height="666"  x="-183"  y="0"  _clickable_img=""  name="img_37"  ]
 [tb_start_text mode=1 ]
 #ファントム
 『じゃあ、もういらない。僕は奪っていたいだけだから。』[p]
@@ -138,9 +138,9 @@
 [tb_image_hide  time="0"  ]
 [chara_hide  name="ファントム"  time="0"  wait="true"  pos_mode="true"  ]
 [bg  time="0"  method="crossfade"  storage="超学生_防音室_背景.jpg"  ]
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
-[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
-[chara_mod  name="超学生"  time="0"  cross="true"  storage="chara/1/主超　怒り.png"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
+[chara_mod  name="超学生"  time="0"  cross="true"  storage="chara/1/主超_怒り.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 [_tb_end_text]

@@ -13,7 +13,7 @@
 [playbgm  volume="70"  time="1000"  loop="true"  storage="グループ３/真実.mp3"  ]
 [tb_show_message_window  ]
 [chara_move  name="超学生"  anim="false"  time="300"  effect="linear"  wait="false"  left="-180"  width="800"  height="1000"  ]
-[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="-180"  ]
+[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="-180"  ]
 [chara_show  name="ShadowShadow"  time="1000"  wait="true"  storage="chara/8/超学生_Shadow_１.png"  width="970"  height="1294"  left="209"  top="-15"  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
@@ -105,7 +105,7 @@
 
 [mask  time="1000"  effect="fadeIn"  color="0xffffff"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
 [chara_hide  name="ShadowShadow"  time="0"  wait="true"  pos_mode="true"  ]
 [chara_move  name="超学生"  anim="false"  time="0"  effect="linear"  wait="true"  left="77"  width="800"  height="1000"  ]
 [tb_image_hide  time="0"  ]
@@ -143,7 +143,7 @@
 孤独から連れ出す...これが一つの手段になるかは分からないけど...[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 うん、とてもいい感じ。指輪ならずっと身に着けることができますからね。[p]

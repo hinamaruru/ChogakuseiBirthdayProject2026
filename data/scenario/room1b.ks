@@ -13,7 +13,7 @@
 [playbgm  volume="70"  time="1000"  loop="true"  storage="グループ１/Halloween_Waltz.mp3"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
-[chara_show  name="超学生"  time="1000"  wait="false"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="-180"  ]
+[chara_show  name="超学生"  time="1000"  wait="false"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="-180"  ]
 [chara_show  name="しゅきしゅきメイドマスカレイド"  time="1000"  wait="true"  storage="chara/15/通常.png"  width="920"  height="1201"  left="228"  top="5"  reflect="false"  ]
 [chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/笑顔.png"  ]
 [tb_start_text mode=1 ]
@@ -81,7 +81,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/ん〜って顔.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/ん_って顔.png"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
@@ -101,7 +101,7 @@
 今私以外のメイドが居なくて...すみません...💦[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 全然大丈夫です！お気になさらず！[p]
@@ -166,7 +166,7 @@
 ！？[p]
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/ん〜って顔.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/ん_って顔.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 ......[p]
@@ -269,7 +269,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="-180"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="-180"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_驚き2.png"  ]
 [tb_start_text mode=1 ]
 #超学生
@@ -277,7 +277,7 @@
 [_tb_end_text]
 
 [chara_show  name="しゅきしゅきメイドマスカレイド"  time="1000"  wait="true"  storage="chara/15/ウィッグとったあと.png"  width="920"  height="1201"  left="228"  top="5"  reflect="false"  ]
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　通常.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_通常.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 私はもう一人のアナタです！だから分かってくれますよね？受け入れてくれますよね？だって同一人物なんですから...！同じもの同士なんですから...！[p]
@@ -289,38 +289,38 @@
 なんで、そんなことを......[p]
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　笑顔.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_笑顔.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 あははっ！愛する人に愛されたいからです！最初は面白そうだからやってました！[p]
 
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　目閉じ.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_目閉じ.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 けどご主人様に恋してからはご主人様のためにずっとこの格好で...！[p]
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　爆笑.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_爆笑.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 ご主人様ったら！あんなに大好きって言ってたくせに、本当の私を見たらすごい顔したんですよ！酷い！両想いだったのに！[p]
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　少し悲しそうな顔.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_少し悲しそうな顔.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 好きな人のすべてを受け入れるのが愛なのに！私はすべてを受け入れました！[p]
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　泣き.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_泣き.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 惑わされても店に来ない日があっても！ずっとずっと待っていました！！！[p]
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　怒.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_怒.png"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_驚き2.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
@@ -328,14 +328,14 @@
 
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　圧強め.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_圧強め.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 目の前にいる本当の私は受け入れてくれなかった！！！！！！！！！！！[p]
 [_tb_end_text]
 
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_悲しみ.png"  ]
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　絶望泣き.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_絶望泣き.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 ただ私は...ご主人様にこっちを見てほしくて...私......私..........！！！！！[p]
@@ -349,20 +349,20 @@
 [_tb_end_text]
 
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_焦り_(1).png"  ]
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　笑顔.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_笑顔.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 あははっ！それくらいご主人様のことを愛してるんです♡[p]
 
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　通常.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_通常.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 ...あーそろそろ帰る時間ですね！[p]
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　表情差分_最後らへん＋おちょに迫るところ.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_表情差分_迫るところ.png"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
 最後に一緒に踊りましょ...！友達になったしるしに！[p]
@@ -400,7 +400,7 @@
 [_tb_end_tyrano_code]
 
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_焦り_(1).png"  ]
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　笑顔.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_笑顔.png"  ]
 [tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
 #しゅきしゅきメイドマスカレイド
@@ -423,10 +423,10 @@
 それではまたいらしてくださいね！超学生様！[p]
 [_tb_end_text]
 
-[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱　目閉じ.png"  ]
+[chara_mod  name="しゅきしゅきメイドマスカレイド"  time="0"  cross="false"  storage="chara/15/脱_目閉じ.png"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
 [tb_hide_message_window  ]
 [bg  time="0"  method="crossfade"  storage="超学生_防音室_背景.jpg"  ]
 [chara_hide  name="しゅきしゅきメイドマスカレイド"  time="0"  wait="false"  pos_mode="true"  ]
@@ -467,7 +467,7 @@
 親愛なる友人、か......[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 幸せになってくださいねメイドさん...ありがとう。[p]

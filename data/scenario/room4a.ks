@@ -3,14 +3,14 @@
 *choice4a
 
 [tb_start_tyrano_code]
-[preload storage="./data/bgimage/ルームNo.4　部屋.png"]
+[preload storage="./data/bgimage/ルームNo.4_部屋.png"]
 [preload storage="./data/fgimage/default/アイテム背景_改.png"]
 [preload storage="./data/fgimage/default/item07.png"]
 [_tb_end_tyrano_code]
 
 [cm  ]
 [playbgm  volume="70"  time="1000"  loop="true"  storage="グループ４/Psychedelic_Psycho.mp3"  ]
-[bg  time="0"  method="crossfade"  storage="ルームNo.4　部屋.png"  ]
+[bg  time="0"  method="crossfade"  storage="ルームNo.4_部屋.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超_真顔.png"  width="800"  height="1000"  left="77"  ]
@@ -66,7 +66,7 @@ TYRANO.kag.stat.charas['room4'].jname = 'ルームNo.4';
 
 [_tb_end_text]
 
-[chara_mod  name="room4"  time="0"  cross="true"  storage="chara/17/目閉じ　笑み.png"  ]
+[chara_mod  name="room4"  time="0"  cross="true"  storage="chara/17/目閉じ_笑み.png"  ]
 [tb_start_text mode=1 ]
 #room4
 「そうです、全てあなたのせいですよ」[p]
@@ -112,7 +112,7 @@ TYRANO.kag.stat.charas['room4'].jname = 'ルームNo.4';
 [_tb_end_text]
 
 [mask  time="0"  effect="fadeIn"  color="0x000000"  ]
-[tb_image_show  time="1000"  storage="default/ルームNo.4　スチル.png"  width="1174"  height="658"  x="-122"  y="-6"  _clickable_img=""  name="img_33"  ]
+[tb_image_show  time="1000"  storage="default/ルームNo.4_スチル.png"  width="1174"  height="658"  x="-122"  y="-6"  _clickable_img=""  name="img_33"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #超学生
@@ -136,9 +136,9 @@ TYRANO.kag.stat.charas['room4'].jname = 'ルームNo.4';
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="0"  method="crossfade"  storage="超学生_防音室_背景.jpg"  ]
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_真顔.png"  ]
-[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
 [tb_start_text mode=1 ]
 #超学生
 [_tb_end_text]
@@ -174,7 +174,7 @@ TYRANO.kag.stat.charas['room4'].jname = 'ルームNo.4';
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 僕なら変われますよ、必ず。[p]

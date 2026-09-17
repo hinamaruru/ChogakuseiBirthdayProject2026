@@ -32,7 +32,7 @@
 そんなびっくりしてどうしたのさ！笑[p]
 [_tb_end_text]
 
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　♡目.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_ハート目.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 顔も赤くなっちゃって！もしかして、見惚れちゃった、とか？！笑[p]
@@ -52,19 +52,19 @@
 いや、わからないです...[p]
 [_tb_end_text]
 
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　見下し.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_見下し.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 そっかぁ...バイトまでの時間分からないや...[p]
 [_tb_end_text]
 
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　舌だし.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_舌だし.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 まあいっか！あははっ！！[p]
 [_tb_end_text]
 
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　見開き.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_見開き.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 うわっ！！[p]
@@ -77,7 +77,7 @@
 え！？[p]
 [_tb_end_text]
 
-[chara_show  name="papapa"  time="700"  wait="true"  storage="chara/13/ぱ　見下し.png"  width="670"  height="895"  left="390"  top="8"  reflect="false"  ]
+[chara_show  name="papapa"  time="700"  wait="true"  storage="chara/13/ぱ_見下し.png"  width="670"  height="895"  left="390"  top="8"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #papapa
 制服が汚れちゃったよ...髪にもなんかついたし...もー、最悪だ！！[p]
@@ -89,7 +89,7 @@
 えっと...大丈夫ですか...？[p]
 [_tb_end_text]
 
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　見開き.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_見開き.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 これ見て大丈夫だと思う？？！[p]
@@ -110,7 +110,7 @@
 そういうことしかないの！[p]
 [_tb_end_text]
 
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　見下し.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_見下し.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 はぁー、あの人に会いたい...[p]
@@ -140,7 +140,7 @@
 ん?どんなこと⋯ねぇ。[p]
 [_tb_end_text]
 
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　見下し.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_見下し.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 まぁ、君には言えないことだらけだよ。色んなことを色んな人とやってきたんだ。[p]
@@ -160,7 +160,7 @@
 あ！あれ出口だよ！ほらほら！早く行きな！！[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 案内してくれてありがとうございます！[p]
@@ -174,7 +174,7 @@
 ...君には君らしさがあるから、あの人とも上手く行きますよ。きっと。頑張ってくださいね。[p]
 [_tb_end_text]
 
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　見下し.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_見下し.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 ......ありがと。[p]
@@ -206,14 +206,14 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　見下し.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_見下し.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 ...はぁ。なんか寂しいな。[p]
 あんなこと言われちゃったら...[p]
 [_tb_end_text]
 
-[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ　♡目.png"  ]
+[chara_mod  name="papapa"  time="0"  cross="false"  storage="chara/13/ぱ_ハート目.png"  ]
 [tb_start_text mode=1 ]
 #papapa
 また会いたくなっちゃうじゃないか。[p]
@@ -224,7 +224,7 @@
 [chara_hide  name="papapa"  time="0"  wait="true"  pos_mode="true"  ]
 [bg  time="0"  method="crossfade"  storage="超学生_防音室_背景.jpg"  ]
 [chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_真顔.png"  width="800"  height="1000"  left="77"  ]
-[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
 [tb_start_text mode=1 ]
 #超学生
 [_tb_end_text]
@@ -253,7 +253,7 @@
 さすがに外に首輪はしていけないから、どこかに飾っておきましょう[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 .........あの子ならきっと大丈夫だと信じたいな。[p]

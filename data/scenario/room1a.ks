@@ -19,7 +19,7 @@
 カランカラン...[p]
 [_tb_end_text]
 
-[chara_show  name="超学生"  time="1000"  wait="false"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="-180"  top="0"  reflect="false"  ]
+[chara_show  name="超学生"  time="1000"  wait="false"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="-180"  top="0"  reflect="false"  ]
 [chara_show  name="モエチャッカファイア"  time="1000"  wait="true"  storage="chara/3/ノーマル.png"  width="800"  height="1000"  left="320"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #モエチャッカファイア
@@ -123,7 +123,7 @@
 あ、やば、チェキ撮るの忘れてた[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/モエチャッカ　スチル.png"  width="1093"  height="745"  x="-47"  y="-107"  _clickable_img=""  name="img_36"  ]
+[tb_image_show  time="1000"  storage="default/モエチャッカ_スチル.png"  width="1093"  height="745"  x="-47"  y="-107"  _clickable_img=""  name="img_36"  ]
 [tb_start_text mode=1 ]
 #モエチャッカファイア
 ご主人様、突然ですがチェキ撮りまーす。３、２、１[p]
@@ -147,7 +147,7 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="1000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [chara_mod  name="モエチャッカファイア"  time="0"  cross="false"  storage="chara/3/ノーマル.png"  ]
 [tb_start_text mode=1 ]
 #超学生
@@ -168,7 +168,7 @@
 はい、ご主人様もう向かわれますか？[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 そうするよ！ありがとう[p]
@@ -201,8 +201,8 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="0"  method="crossfade"  storage="超学生_防音室_背景.jpg"  ]
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
-[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_焦り_(1).png"  ]
 [tb_start_text mode=1 ]
 #超学生

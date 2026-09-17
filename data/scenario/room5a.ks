@@ -13,7 +13,7 @@
 [bg  time="0"  method="crossfade"  storage="部屋.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
-[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
+[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_驚き.png"  ]
 [tb_start_text mode=1 ]
 #???
@@ -21,7 +21,7 @@
 [_tb_end_text]
 
 [chara_move  name="超学生"  anim="true"  time="600"  effect="linear"  wait="false"  left="-180"  width="800"  height="1000"  ]
-[chara_show  name="バットオンリーユー"  time="700"  wait="true"  storage="chara/10/顔がみえない_のとこのやつ！.png"  width="869"  height="1161"  left="251"  top="19"  reflect="false"  ]
+[chara_show  name="バットオンリーユー"  time="700"  wait="true"  storage="chara/10/顔がみえない_のとこのやつ.png"  width="869"  height="1161"  left="251"  top="19"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #超学生
 誰ですか...？[p]
@@ -29,7 +29,7 @@
 よーく顔見てみな[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ばとスチル.png"  width="982"  height="735"  x="-11"  y="-70"  _clickable_img=""  name="img_12"  ]
+[tb_image_show  time="1000"  storage="default/ばとスチル.png"  width="982"  height="735"  x="-11"  y="-70"  _clickable_img=""  name="img_12"  ]
 [tb_start_text mode=1 ]
 #超学生
 ！？[p]
@@ -44,7 +44,7 @@
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="0"  ]
-[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/デフォ.png"  ]
+[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/デフォ.png"  ]
 [mask_off  time="500"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #バットオンリーユー
@@ -94,7 +94,7 @@
 恋に落ちた[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="true"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="true"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 恋...素敵ですね[p]
@@ -107,7 +107,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/デフォ.png"  ]
+[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/デフォ.png"  ]
 [tb_start_text mode=1 ]
 #バットオンリーユー
 あの人はファンとの距離が近くて、配信やリプ、DMでもたくさん話してくれたんだ。[p]
@@ -128,7 +128,7 @@
 で、ここからが本題！[p]
 [_tb_end_text]
 
-[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/デフォ.png"  ]
+[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/デフォ.png"  ]
 [tb_start_text mode=1 ]
 #バットオンリーユー
 僕たちは二人で遊ぶこともあったし、帰りにはよくこのトンネルで話したんだ。[p]
@@ -214,7 +214,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/二人で落ちたんだ！のところ.png"  ]
+[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/二人で落ちたんだ_のところ.png"  ]
 [tb_start_text mode=1 ]
 #バットオンリーユー
 そう！二人で堕ちたんだ！[p]
@@ -237,7 +237,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/デフォ.png"  ]
+[chara_mod  name="バットオンリーユー"  time="0"  cross="false"  storage="chara/10/デフォ.png"  ]
 [tb_start_text mode=1 ]
 #バットオンリーユー
 あ、出口が見えてきた！それじゃあ......[p]
@@ -261,8 +261,8 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide  name="バットオンリーユー"  time="0"  wait="true"  pos_mode="true"  ]
 [bg  time="0"  method="crossfade"  storage="超学生_防音室_背景.jpg"  ]
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
-[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_焦り_(1).png"  ]
 [tb_start_text mode=1 ]
 #超学生
@@ -304,7 +304,7 @@ Happy Birthday！[p]
 サプラーイズ☆って......もっと他に何かあるでしょ......笑[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 ...ふふ、ありがとうございます。もう一人の僕。[p]

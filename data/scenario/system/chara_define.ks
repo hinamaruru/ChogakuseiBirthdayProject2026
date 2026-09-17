@@ -14,15 +14,15 @@
 ;ファントム
 [chara_new  name="ファントム"  jname="ファントム"  storage="chara/9/目閉じ.png"  ]
 ;バットオンリーユー
-[chara_new  name="バットオンリーユー"  jname="バットオンリーユー"  storage="chara/10/デフォ.png"  ]
+[chara_new  name="バットオンリーユー"  jname="バットオンリーユー"  storage="chara/10/デフォ.png"  ]
 ;歪なわけ、教えてあげる
 [chara_new  name="歪なわけ、教えてあげる"  jname="歪なわけ、教えてあげる"  storage="chara/11/怒り.png"  ]
 ;papapa
-[chara_new  name="papapa"  jname="papapa"  storage="chara/13/ぱ　♡目.png"  ]
+[chara_new  name="papapa"  jname="papapa"  storage="chara/13/ぱ_ハート目.png"  ]
 ;モエチャッカファイア
 [chara_new  name="モエチャッカファイア"  jname="モエチャッカファイア"  storage="chara/14/あ.png"  ]
 ;しゅきしゅきメイドマスカレイド
-[chara_new  name="しゅきしゅきメイドマスカレイド"  jname="しゅきしゅきメイドマスカレイド"  storage="chara/15/ん〜って顔.png"  ]
+[chara_new  name="しゅきしゅきメイドマスカレイド"  jname="しゅきしゅきメイドマスカレイド"  storage="chara/15/ん_って顔.png"  ]
 ;ルームNo.4
 [chara_new  name="ルームNo.4"  jname="ルームNo.4"  storage="chara/16/目閉じ.png"  ]
 ;room4

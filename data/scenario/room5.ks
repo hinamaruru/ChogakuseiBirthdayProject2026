@@ -4,14 +4,14 @@
 
 [cm  ]
 [tb_start_tyrano_code]
-[preload storage="./data/bgimage/バットオンリーユー　ずう！　背景.png"]
+[preload storage="./data/bgimage/バットオンリーユー_ずう_背景.png"]
 [_tb_end_tyrano_code]
 
-[playbgm  volume="70"  time="0"  loop="true"  storage="グループ５/Love_＆_hate.mp3"  ]
-[bg  time="0"  method="crossfade"  storage="バットオンリーユー　ずう！　背景.png"  ]
+[playbgm  volume="70"  time="0"  loop="true"  storage="グループ５/Love_and_hate.mp3"  ]
+[bg  time="0"  method="crossfade"  storage="バットオンリーユー_ずう_背景.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
-[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
+[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_真顔.png"  ]
 [tb_start_text mode=1 ]
 #超学生
@@ -94,14 +94,14 @@ Q3.僕にはあなたしかいない。あなたは僕についてきてくれ�
 *ResultA
 
 [playse  volume="100"  time="1000"  buf="0"  storage="鍵を開ける.mp3"  ]
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_真顔.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 急に扉開くじゃん...[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 行ってみましょう、あの部屋に[p]
@@ -113,14 +113,14 @@ Q3.僕にはあなたしかいない。あなたは僕についてきてくれ�
 *ResultB
 
 [playse  volume="100"  time="1000"  buf="0"  storage="鍵を開ける.mp3"  ]
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_驚き.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 わっなに！？扉開いた！！？[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 ちょっと行ってみようかねそしたら[p]

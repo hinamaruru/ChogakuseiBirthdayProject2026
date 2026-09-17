@@ -9,7 +9,7 @@
 [freeimage layer="2"]
 
 [bg time="1000" method="crossfade" storage="bg_haikei.png"]
-[button storage="title_screen.ks" target="*title" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="title_screen.ks" target="*title" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 
 ; --- アイテム01 ---
 [if exp="sf.item01==1"]
@@ -103,7 +103,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item01.png" left="-293" top="-85" width="1130" height="846" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *Detail02
@@ -112,7 +112,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item02.png" left="-100" top="80" width="700" height="400" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *Detail03
@@ -121,7 +121,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item03.png" left="-293" top="-85" width="1130" height="846" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *Detail04
@@ -130,7 +130,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item04.png" left="-293" top="-85" width="1130" height="846" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *Detail05
@@ -139,7 +139,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item05.png" left="-293" top="-85" width="1130" height="846" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *Detail06
@@ -148,7 +148,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item06.png" left="-293" top="-85" width="1130" height="846" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *Detail07
@@ -157,7 +157,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item07.png" left="-293" top="-85" width="1130" height="846" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *Detail08
@@ -166,7 +166,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item08.png" left="-293" top="-85" width="1130" height="846" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *Detail09
@@ -175,7 +175,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item09.png" left="-293" top="-85" width="1130" height="846" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *Detail10
@@ -184,7 +184,7 @@
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="0" top="0" width="1152" height="1152" time="500"]
 [image layer="2" page="fore" storage="default/item10.PNG" left="-150" top="-45" width="850" height="650" time="0"]
 [_tb_end_tyrano_code]
-[button storage="zukan.ks" target="*CloseDetail" graphic="もどる ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
+[button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="635" height="424" x="11" y="232" _clickable_img="" name="img_2"]
 [s]
 
 *CloseDetail

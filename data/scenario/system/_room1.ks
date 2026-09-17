@@ -1,6 +1,6 @@
-[preload  storage="./data/bgimage/モエチャッカファイア　しゅきしゅきメイドマスカレイド　背景.png"  ]
+[preload  storage="./data/bgimage/モエチャッカファイア_しゅきしゅきメイドマスカレイド_背景.png"  ]
 [preload  storage="./data/fgimage/chara/1/主超_焦り_(1).png"  ]
 [preload  storage="./data/fgimage/chara/1/主超_真顔.png"  ]
-[preload  storage="./data/fgimage/chara/1/主超　通常.png"  ]
+[preload  storage="./data/fgimage/chara/1/主超_通常.png"  ]
 [preload  storage="./data/fgimage/chara/1/主超_驚き.png"  ]
 [return]

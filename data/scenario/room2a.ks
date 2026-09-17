@@ -3,17 +3,17 @@
 *choice2a
 
 [tb_start_tyrano_code]
-[preload storage="./data/bgimage/歪なわけ　背景.png"]
+[preload storage="./data/bgimage/歪なわけ_背景.png"]
 [preload storage="./data/fgimage/default/アイテム背景_改.png"]
 [preload storage="./data/fgimage/default/item03.png"]
 [_tb_end_tyrano_code]
 
 [cm  ]
-[bg  time="0"  method="crossfade"  storage="歪なわけ　背景.png"  ]
+[bg  time="0"  method="crossfade"  storage="歪なわけ_背景.png"  ]
 [playbgm  volume="70"  time="1000"  loop="true"  storage="グループ２/マーブルコーヒー.mp3"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
-[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
+[chara_show  name="超学生"  time="1000"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
 [chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_焦り2.png"  ]
 [tb_start_text mode=1 ]
 #超学生
@@ -175,8 +175,8 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide  name="歪なわけ、教えてあげる"  time="0"  wait="true"  pos_mode="true"  ]
 [bg  time="0"  method="crossfade"  storage="超学生_防音室_背景.jpg"  ]
-[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超　通常.png"  width="800"  height="1000"  left="77"  ]
-[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
+[chara_show  name="超学生"  time="0"  wait="true"  storage="chara/1/主超_通常.png"  width="800"  height="1000"  left="77"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="のんびり時間.mp3"  ]
 [tb_start_text mode=1 ]
 #超学生
 [_tb_end_text]
@@ -217,7 +217,7 @@
 何故つけないのか教えてくれなかったけど...[p]
 [_tb_end_text]
 
-[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超　通常.png"  ]
+[chara_mod  name="超学生"  time="0"  cross="false"  storage="chara/1/主超_通常.png"  ]
 [tb_start_text mode=1 ]
 #超学生
 とてもきれいなネックレスをいただいちゃったから、どこかでつけましょうかね。[p]

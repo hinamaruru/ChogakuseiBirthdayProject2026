@@ -4,7 +4,7 @@
 
 
 		
-			[position page=fore frame="メッセージ枠　２.png" margint=490 marginl=50 marginr=75 marginb=10 vertical=false opacity="180" ]
+			[position page=fore frame="メッセージ枠_2.png" margint=490 marginl=50 marginr=75 marginb=10 vertical=false opacity="180" ]
 		
 
 		[ptext name="chara_name_area" layer="message0" color=0xFFFFFF size=26 x=63 y=459 bold="bold" edge="undefined" shadow="undefined"]
