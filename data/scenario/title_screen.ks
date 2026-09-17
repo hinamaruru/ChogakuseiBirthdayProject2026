@@ -3,12 +3,18 @@
 *title
 
 [tb_start_tyrano_code]
-[if exp="sf.notice_seen != 1"]
-[jump storage="notice.ks"]
+[if exp="sf.item01 == 1 && sf.item02 == 1 && sf.item03 == 1 && sf.item04 == 1 && sf.item05 == 1 && sf.item06 == 1 && sf.item07 == 1 && sf.item08 == 1 && sf.item09 == 1 && sf.item10 == 1"]
+
+[bg storage="title_complete.png" time="0"]
+
+[else]
+
+[bg storage="title_normal.png" time="0"]
+
 [endif]
 
 [iscript]
-//$("#startup_loading").remove();
+$("#startup_loading").remove();
 [endscript]
 [_tb_end_tyrano_code]
 

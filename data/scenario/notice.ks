@@ -4,15 +4,11 @@
 [hidemenubutton]
 [_tb_end_tyrano_code]
 
-[tb_start_tyrano_code]
-[bg time="0" storage="注意事項.png"]
-[_tb_end_tyrano_code]
+[bg storage="注意事項.png" time="0"]
 
 [tb_start_tyrano_code]
 [iscript]
-
-//$("#startup_loading").remove();
-
+$("#startup_loading").remove();
 [endscript]
 [_tb_end_tyrano_code]
 
