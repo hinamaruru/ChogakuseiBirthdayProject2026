@@ -1,7 +1,7 @@
 
 
 ;メニューボタン非表示
-;[hidemenubutton]
+[hidemenubutton]
 
 
 ;ゲームに必要なライブラリ読み込み

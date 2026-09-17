@@ -150,23 +150,26 @@
             ====================================== */
 
             #startup_loading {
+                position: fixed !important;
 
-                position: fixed;
+                left: 0 !important;
+                top: 0 !important;
+                right: 0 !important;
+                bottom: 0 !important;
 
-                left: 0;
-                top: 0;
+                width: 100vw !important;
+                height: 100vh !important;
 
-                width: 100vw;
-                height: 100vh;
+                background: #000 !important;
 
-                background: #000;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
 
-                display: flex;
+                z-index: 2147483647 !important;
 
-                align-items: center;
-                justify-content: center;
-
-                z-index: 99999999;
+                opacity: 1 !important;
+                visibility: visible !important;
 
                 color: #fff;
 
@@ -178,11 +181,6 @@
                     sans-serif;
 
                 user-select: none;
-
-                /*
-                    裏側にMENUボタン等が生成されても
-                    起動中は操作できないようにする
-                */
                 pointer-events: all;
             }
 

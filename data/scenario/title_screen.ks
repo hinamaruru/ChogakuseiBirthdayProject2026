@@ -8,7 +8,7 @@
 [endif]
 
 [iscript]
-$("#startup_loading").remove();
+//$("#startup_loading").remove();
 [endscript]
 [_tb_end_tyrano_code]
 
