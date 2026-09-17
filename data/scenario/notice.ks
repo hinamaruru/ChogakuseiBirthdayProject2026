@@ -10,9 +10,7 @@
 
 [tb_start_tyrano_code]
 [iscript]
-
 $("#startup_loading").remove();
-
 [endscript]
 [_tb_end_tyrano_code]
 
@@ -20,6 +18,9 @@ $("#startup_loading").remove();
 [preload storage="./data/bgimage/title_normal.png"]
 [preload storage="./data/bgimage/title_complete.png"]
 [_tb_end_tyrano_code]
+
+; 注意事項表示後、10秒間待機
+[wait time="10000"]
 
 [glink color="btn_05_black" storage="notice.ks" size="20" text="タイトルへ" x="737" y="499" width="152" height="48" _clickable_img="" target="*notice_ok"]
 
