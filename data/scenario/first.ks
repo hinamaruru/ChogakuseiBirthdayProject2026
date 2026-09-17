@@ -10,12 +10,20 @@
 ;live2D対応
 
 [layopt layer=2 visible=true]
-[layopt layer="message0" visible=false]
+[layopt layer="message0" visible="false"]
 [call storage="system/message_window.ks"]
 
 ;プラグインの設定
 [call storage="system/plugin.ks"]
 [call storage="system/plugin_third.ks"]
+
+;起動時のローディングオーバーレイ強制削除
+[iscript]
+$("#startup_loading").remove();
+if (TYRANO.kag.stat.is_strong_stop === true) {
+    TYRANO.kag.stat.is_strong_stop = false;
+}
+[endscript]
 
 ;タイトル画面表示
 [jump storage="title_screen.ks"]
