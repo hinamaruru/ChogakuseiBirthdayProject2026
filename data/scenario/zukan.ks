@@ -128,7 +128,7 @@
 [layopt layer="2" visible="true"]
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
 [image layer="2" page="fore" storage="default/item03.png" left="140" top="180" width="300" height="169" time="0"]
-[ptext layer="2" page="fore" text="【歪なわけ／教えてあげる】</br></br>『歪んだ愛と、隠した本心を込めて』</br></br>青いハートがあしらわれたネックレス。</br>素直になれない強がりと、その奥底に隠された真情の結晶。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
+[ptext layer="2" page="fore" text="【歪なわけ、教えてあげる】</br></br>『歪んだ愛と、隠した本心を込めて』</br></br>青いハートがあしらわれたネックレス。</br>素直になれない強がりと、その奥底に隠された真情の結晶。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
 [button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="330" height="220" x="600" y="320" _clickable_img="" name="img_2"]
 [s]
