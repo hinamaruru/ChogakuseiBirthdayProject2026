@@ -118,7 +118,7 @@
 [layopt layer="2" visible="true"]
 [image layer="2" page="fore" storage="default/アイテム背景_改.png" left="100" top="70" width="760" height="500" time="200"]
 [image layer="2" page="fore" storage="default/item02.png" left="165" top="140" width="250" height="250" time="0"]
-[ptext layer="2" page="fore" text="【しゅきしゅきメイドマスカレイド】</br></br>『優しい貴方に』</br></br>深紅の薔薇とメッセージカード。</br>熱烈な想いと、去り際に向けられた純粋な感謝が込められている。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
+[ptext layer="2" page="fore" text="【しゅきしゅきメイドマスカレイド】</br></br>『優しい貴方に』</br></br>桃色の薔薇とメッセージカード。</br>熱烈な想いと、去り際に向けられた純粋な感謝が込められている。" x="470" y="150" width="340" size="20" color="0xFFFFFF" align="left" edge="0x000000"]
 [_tb_end_tyrano_code]
 [button storage="zukan.ks" target="*CloseDetail" graphic="もどる_ボタン.png" width="330" height="220" x="600" y="320" _clickable_img="" name="img_2"]
 [s]
